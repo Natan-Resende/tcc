@@ -1,0 +1,265 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container2{
+    background-color: rgb(46, 46, 46);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 1.6rem;
+    border-style: solid;
+    border-color: rgb(2, 179, 228);
+    background-color: rgb(2, 179, 228);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(2, 179, 228);
+}
+
+.containervazio{
+    height: 10vh;
+    width: 75vw;
+}
+
+.container3{
+    height: 90vh;
+    width: 100%;
+    background-image: url(../Images/wallpaper.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4{
+    background-color: transparent;
+    height: 30vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(118, 255, 187);
+}
+
+.secao1{
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+.container5{
+    background-color: rgb(2, 179, 228);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container6{
+    height: 10vh;
+    width: 80vw;
+}
+
+.secao2{
+    font-family: sans-serif;
+    font-size: 32pt;
+}
+
+.container7{
+    height: 40vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container8{
+    height: 35vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.container9{
+    height: 30vh;
+    width: 60vw;
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.container11{
+    height: 15vh;
+    width: 80vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container12{
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container10{
+    background-color: rgb(44, 226, 135);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao3, .secao4, .secao5{
+    height: 20vh;
+    width: 20vw;
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-align: justify;
+    margin: 40px;
+}
+
+.container13, .container14, .container15{
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container16{
+    background-color: rgb(2, 179, 228);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container17{
+    height: 15vh;
+    width: 80vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container18{
+    height: 25vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container19{
+    height: 25vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.container20{
+    background-color: rgb(44, 226, 135);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container21{
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container22{
+    height: 40vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container23{
+    height: 45vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.secao6{
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.rodape{
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+.secao7{
+   height: 15vh;
+   width: 30vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;
+   font-size: 16pt;
+}
+
+.container25{
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 1.6rem;
+    border-style: solid;
+    border-color: rgb(46, 46, 46);
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+.container24{
+    height: 15vh;
+    width: 17vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}

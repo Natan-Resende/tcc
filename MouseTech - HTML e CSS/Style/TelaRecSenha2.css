@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    background-color: whitesmoke;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 4px 10px rgb(156, 156, 156);
+}
+
+.secao7{
+    height: 10vh;
+    width: 25vw;
+    background-color: transparent;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 16pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.container10{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.forms{
+    height: 10vh;
+    width: 15vw;
+}
+
+input {
+    text-align: center;
+}
+  
+::-webkit-input-placeholder {
+    text-align: center;
+}
+  
+:-moz-placeholder {
+    text-align: center;
+}
+
+.secao8{
+    height: 5vh;
+    width: 40vw;
+}
+
+.caixinha{
+    font-family: sans-serif;
+    font-size: 13pt;
+    margin: 5px;
+    color: black;
+}
+
+.bloquin{
+    height: 50vh;
+    width: 50vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.0rem;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(2, 179, 228);
+    box-shadow: 0px 0px 10px rgb(2, 179, 228)
+}
+
+.secao9{
+    height: 15vh;
+    width: 49vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: sans-serif;
+    font-size: 32pt;
+    font-weight: bold;
+    color: black;
+    border: 0px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, whitesmoke, rgb(0, 0, 0), whitesmoke);
+    border-image-slice: 1;
+}
+
+.secao10{
+    font-family: sans-serif;
+    font-size: 13pt;
+    height: 10vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    font-size: 13pt;
+    border-radius: 1.6rem;
+    border-style: solid;
+    border-color: rgb(0, 200, 255);
+    background-color: rgb(0, 200, 255);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(0, 196, 250);
+}

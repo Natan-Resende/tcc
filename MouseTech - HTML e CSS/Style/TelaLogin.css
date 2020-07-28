@@ -1,0 +1,221 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.container2{
+    height: 100vh;
+    width: 5vw;
+    background-color: rgb(105, 105, 105);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.container3{
+    height: 100vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.secao1{
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+}
+
+.botao{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(52, 65, 82);
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    border: transparent;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.container4{
+    display: flex;
+    height: 50vh;
+    width: 3vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container5{
+    display: flex;
+    height: 50vh;
+    width: 3vw;
+    margin: 15px;
+    flex-direction: row;
+}
+
+
+.container6{
+    display: flex;
+    height: 35vh;
+    width: 3vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containervazio{
+    height: 20vh;
+    width: 30vw;
+}
+
+.container7{
+    display: flex;
+    height: 10vh;
+    width: 3vw;
+    margin: 15px;
+    flex-direction: row;
+}
+
+
+.container8{
+    display: flex;
+    height: 20vh;
+    width: 3vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container9{
+    display: flex;
+    height: 10vh;
+    width: 3vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cabecalho{
+    background-color: whitesmoke;
+    height: 10vh;
+    width: 95vw;
+    display: flex;
+    margin-left: 5vw;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 4px 10px rgb(156, 156, 156);
+    position: fixed;
+}
+
+.nomeuser{
+    font-family: sans-serif;
+    font-size: 13pt;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.usuario{
+    height: 10vh;
+    width: 18vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao7{
+    height: 10vh;
+    width: 10vw;
+    background-color: transparent;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 14pt;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container10{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.forms{
+    height: 14vh;
+    width: 40vw;
+}
+
+.secao8{
+    height: 5vh;
+    width: 40vw;
+}
+
+.caixinha{
+    font-family: sans-serif;
+    font-size: 13pt;
+    margin: 5px;
+    color: black;
+}
+
+.space{
+    height: 15vh;
+    width: 5vw;
+}
+
+.bloquin{
+    height: 60vh;
+    width: 50vw;
+    background-color: whitesmoke;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.0rem;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(2, 179, 228);
+    box-shadow: 0px 0px 10px rgb(2, 179, 228)
+}
+
+.secao9{
+    height: 15vh;
+    width: 49vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: sans-serif;
+    font-size: 34pt;
+    font-weight: bold;
+    color: black;
+    border: 0px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, whitesmoke, rgb(0, 0, 0), whitesmoke);
+    border-image-slice: 1;
+}
+
+.button{
+    height: 50px;
+    width: 120px;
+    margin: 10px;
+    font-size: 13pt;
+    border-radius: 1.6rem;
+    border-style: solid;
+    border-color: rgb(0, 200, 255);
+    background-color: rgb(0, 200, 255);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(0, 196, 250);
+}
